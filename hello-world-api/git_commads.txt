@@ -1,0 +1,22 @@
+Here are some basic Git commands essential for version control:
+1. Setting up a Repository:
+git init: Initializes a new Git repository in the current directory, turning it into a trackable project.
+git clone <repository-url>: Creates a local copy of an existing remote repository.
+git config --global user.name "Your Name": Sets your global Git username for commit attribution.
+git config --global user.email "your.email@example.com": Sets your global Git email address for commit attribution.
+2. Saving Changes:
+git status: Displays the current state of your working directory, showing changes that are staged, unstaged, and untracked.
+git add <file-name>: Stages a specific file for the next commit.
+git add .: Stages all changes in the current directory for the next commit.
+git commit -m "Your commit message": Records the staged changes into the repository with a descriptive message.
+3. Branching and Merging:
+git branch: Lists all local branches in the repository.
+git branch <branch-name>: Creates a new branch.
+git checkout <branch-name>: Switches to a different branch.
+git merge <branch-name>: Integrates changes from a specified branch into the current branch.
+4. Remote Operations:
+git remote add origin <remote-url>: Connects your local repository to a remote repository (commonly named origin).
+git pull origin <branch-name>: Fetches changes from the remote repository and merges them into your current local branch.
+git push origin <branch-name>: Uploads your local commits to the remote repository.
+5. Viewing History:
+git log: Shows the commit history of the current branch.
